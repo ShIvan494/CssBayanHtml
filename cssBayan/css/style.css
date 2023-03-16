@@ -136,9 +136,10 @@ input:checked
 .icon_close {
   display: block;
 }
-#accord1:checked #accord_item_header1 {
-  color: rgb(0, 0, 0);
-}
-#accord1:checked #accord_item_header2{
- color: rgb(0, 0, 255); 
+input:checked
++ label 
+.accord_item
+.accord_item_header
+{
+   color: rgb(0, 0, 0);
 }
