@@ -44,8 +44,10 @@
   font-size: 1.5rem; 
 }
   .icon_open {
+    display: block;
     width: 1.25rem;
     height: 1.25rem;
+    transition: all 2s;
   }
   .icon_close {
     width: 1.25rem;
