@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:
+  rgb(214, 203, 203);
+}
+header {
+  width: 50%;
+  margin:auto;
+  height: auto;
+  background:
+  rgb(214, 203, 203);
+  border-bottom: solid;
+  border-color:
+  rgb(125, 116, 116);
+  font-weight: bolder;
+}
+h1 {
+  font-size: 2rem; 
+}
+main {
+  display: flex;
+  flex-direction: column ;
+  width: 50%;
+  margin:auto;
+  height: auto;
+  margin-bottom: 5rem;
+  background:
+  rgb(214, 203, 203);
+}
+section {
+  height: auto;
+}
+.accord_item {
+  border-bottom: solid;
+  border-color:
+  rgb(125, 116, 116);
+}
+.accord_item_header {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: 
+  space-between;
+  width: 100%;
+  color: rgb(0, 0, 255);
+  transition: color 0.5s;
+  z-index: 100;
+  font-weight: bolder;
+  font-size: 2rem;
+  cursor: pointer;
+}
+h2 {
+  font-size: 2rem; 
+}
+.icon_open {
+  display: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: all 2s;
+}
+.icon_close {
+  display: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: all 2s;
+}
+.accord_item_body {
+  display: block;
+  height: 0;
+  transition: all 3s;
+  text-align: center;
+  cursor: pointer;
+  height: auto;
+  box-sizing: border-box;
+}
+.accord_item_img {
+  width: 40%;
+  height: 0;
+  transition: all 3s;
+  margin: 2rem;
+}
+.accord {
+  display: none;
+}
+.main:hover 
+.icon_open {
+  display: block;
+  transition: all 2s;
+}
+.main:hover 
+.accord_item_header {
+  color: rgb(0, 0, 0);
+}
+.main:active
+.accord_item_header {
+  color: rgb(0, 0, 0);
+}
+.section:hover 
+.icon_close{
+  display: block;
+}
+.section:hover 
+.accord_item_body {
+  transition: all 3s;
+  height: auto;
+}
+.section:hover 
+.accord_item_img {
+  transition: all 3s;
+  height: 15rem;
+}
+.section:hover
+.icon_open {
+  display: none;
+}
+input:checked+label 
+.accord_item 
+.accord_item_body
+.accord_item_img {
+  height: 15rem;
+}
+input:checked
++ label 
+.accord_item
+.accord_item_header 
+.icon_open {
+  display: none;
+}
+input:checked
++ label 
+.accord_item
+.accord_item_header
+.icon_close {
+  display: block;
+}
+input:checked
++ label 
+.accord_item
+.accord_item_header
+{
+   color: rgb(0, 0, 0);
+}

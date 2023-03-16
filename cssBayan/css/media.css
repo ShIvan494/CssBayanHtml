@@ -1,0 +1,117 @@
+@media only screen and (min-width:1200px) { 
+  .main:hover 
+.icon_open {
+  display: block;
+  transition: all 2s;
+}
+.main:hover 
+.accord_item_header {
+  color: rgb(0, 0, 0);
+}
+.section:hover 
+.icon_close{
+  display: block;
+}
+.section:hover 
+.accord_item_body {
+  transition: all 3s;
+  height: auto;
+}
+.section:hover 
+.accord_item_img {
+  transition: all 3s;
+  height: 15rem;
+}
+.section:hover
+.icon_open {
+  display: none;
+}
+}
+@media all and (max-width: 821px) {
+  body {
+  cursor: none:
+  }
+  header {
+    margin-top: 5rem;
+  }
+  h1 {
+  font-size: 1.5rem; 
+}
+  main {
+    margin-bottom: 2.5rem;
+  }
+   h2 {
+  font-size: 1.5rem; 
+}
+  .icon_open {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    transition: all 2s;
+  }
+  .icon_close {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .accord_item_body {
+    cursor:auto
+  }
+  .accord_item_img {
+    width: 7.5rem;
+    margin: 1rem;
+  }
+  .section:hover 
+  .accord_item_img {
+    height: 7.5rem;
+  }
+  input:checked+label 
+  .accord_item 
+  .accord_item_body
+  .accord_item_img {
+    height: 7.5rem;
+}
+}
+@media all and (max-width: 321px) {
+   body {
+  cursor: none:
+  }
+  header {
+    margin-top: 4rem;
+  }
+   h1 {
+  font-size: 1.0rem; 
+}
+  main {
+    margin-bottom: 1.2rem;
+  }
+  .accord_item_header {
+    font-size: 0.8rem;
+  }
+  h2 {
+  font-size: 1.0rem; 
+}
+  .icon_open {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    transition: all 2s;
+  }
+  .icon_close {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+  .accord_item_img {
+    width: 5rem;
+    margin: 0.5rem;
+  }
+  .section:hover 
+  .accord_item_img {
+    height: 6rem;
+  }
+  input:checked+label 
+  .accord_item 
+  .accord_item_body
+  .accord_item_img {
+    height: 6rem;
+}
+}
