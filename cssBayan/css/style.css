@@ -32,6 +32,7 @@ main {
 }
 section {
   height: auto;
+  cursor: pointer;
 }
 .accord_item {
   border-bottom: solid;
@@ -67,7 +68,6 @@ h2 {
   transition: all 2s;
 }
 .accord_item_body {
-  cursor: pointer;
   display: block;
   height: 0;
   transition: all 3s;
