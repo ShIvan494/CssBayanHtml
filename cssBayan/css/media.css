@@ -31,12 +31,15 @@
   header {
     margin-top: 5rem;
   }
+  h1 {
+  font-size: 1.5rem; 
+}
   main {
     margin-bottom: 2.5rem;
   }
-  .accord_item_header {
-    font-size: 1rem;
-  }
+   h2 {
+  font-size: 1.5rem; 
+}
   .icon_open {
     width: 1.25rem;
     height: 1.25rem;
@@ -67,12 +70,18 @@
   header {
     margin-top: 4rem;
   }
+   h1 {
+  font-size: 1.0rem; 
+}
   main {
     margin-bottom: 1.2rem;
   }
   .accord_item_header {
     font-size: 0.8rem;
   }
+  h2 {
+  font-size: 1.0rem; 
+}
   .icon_open {
     width: 1rem;
     height: 1rem;
