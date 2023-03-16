@@ -94,10 +94,6 @@ h2 {
 .accord_item_header {
   color: rgb(0, 0, 0);
 }
-.main:checked 
-.accord_item_header {
-  color: rgb(0, 0, 0);
-}
 .main:active
 .accord_item_header {
   color: rgb(0, 0, 0);
@@ -139,4 +135,5 @@ input:checked
 .accord_item_header
 .icon_close {
   display: block;
+  color: rgb(0, 0, 0);
 }
