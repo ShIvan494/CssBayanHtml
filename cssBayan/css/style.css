@@ -139,6 +139,6 @@ input:checked
 #accord1:checked #accord_item_header1 {
   color: rgb(0, 0, 0);
 }
-#accord1:checked #accord_item_header{
+#accord1:checked #accord_item_header2{
  color: rgb(0, 0, 255); 
 }
