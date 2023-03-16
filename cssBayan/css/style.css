@@ -135,5 +135,10 @@ input:checked
 .accord_item_header
 .icon_close {
   display: block;
+}
+#accord1:checked #accord_item_header1 {
   color: rgb(0, 0, 0);
+}
+#accord1:checked #accord_item_header{
+ color: rgb(0, 0, 255); 
 }
