@@ -17,6 +17,9 @@ header {
   rgb(125, 116, 116);
   font-weight: bolder;
 }
+h1 {
+  font-size: 2rem; 
+}
 main {
   display: flex;
   flex-direction: column ;
@@ -47,7 +50,9 @@ section {
   z-index: 100;
   font-weight: bolder;
   font-size: 2rem; 
-
+}
+h2 {
+  font-size: 2rem; 
 }
 .icon_open {
   display: none;
