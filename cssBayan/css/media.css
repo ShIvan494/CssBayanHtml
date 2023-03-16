@@ -1,5 +1,31 @@
 @media (min-width:1200px) { 
-
+  .main:hover 
+.icon_open {
+  display: block;
+  transition: all 2s;
+}
+.main:hover 
+.accord_item_header {
+  color: rgb(0, 0, 0);
+}
+.section:hover 
+.icon_close{
+  display: block;
+}
+.section:hover 
+.accord_item_body {
+  transition: all 3s;
+  height: auto;
+}
+.section:hover 
+.accord_item_img {
+  transition: all 3s;
+  height: 15rem;
+}
+.section:hover
+.icon_open {
+  display: none;
+}
 }
 @media all and (max-width: 820px) {
   header {
