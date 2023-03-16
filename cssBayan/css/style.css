@@ -94,6 +94,10 @@ h2 {
 .accord_item_header {
   color: rgb(0, 0, 0);
 }
+.main:active
+.accord_item_header {
+  color: rgb(0, 0, 0);
+}
 .section:hover 
 .icon_close{
   display: block;
