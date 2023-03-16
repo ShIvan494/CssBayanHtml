@@ -32,12 +32,12 @@ main {
 }
 section {
   height: auto;
-  cursor: pointer;
 }
 .accord_item {
   border-bottom: solid;
   border-color:
   rgb(125, 116, 116);
+  cursor: pointer;
 }
 .accord_item_header {
   display:flex;
